@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Spotify.me</title>
+</head>
+<body>
+  <h1>Spotify.me</h1>
+  
+  <form id="search-form">
+      <input type="text" id="keyword">
+    <select id="search-type">
+      <option id="artist">artist</option>
+      <option id="album">album</option>
+      <option id="track">track</option>
+    </select>
+    <button type="submit" id="submit-button">SUBMIT</button>
+  </form>
+
+  <div id="results">
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="js/jq-spotify.js"></script>
+</body>
+</html>
